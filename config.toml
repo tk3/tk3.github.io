@@ -1,4 +1,4 @@
 baseURL = "https://tk3.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "tk's memo"
 theme = "book"
