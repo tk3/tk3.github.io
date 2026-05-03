@@ -4,7 +4,7 @@ description: >-
 twitter_username: tk3inc
 github_username: tk3
 
-theme: jekyll-theme-minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
