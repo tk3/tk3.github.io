@@ -6,7 +6,7 @@ today=`date +'%F'`
 title=$1
 
 if [ -z "$post" ] || [ -z "$today" ] || [ -z "$title" ]; then
-  echo "Error"
+  echo "Error: Argument"
   exit 1
 fi
 
