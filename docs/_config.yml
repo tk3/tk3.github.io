@@ -3,13 +3,11 @@
 title: tk3++
 description: >-
   tk3's memo
-#baseurl: "" # the subpath of your site, e.g. /blog
-#url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tk3inc
 github_username: tk3
 
-# Build settings
 theme: minima
+permalink: /posts/:year/:month/:day/:title/
 plugins:
   - jekyll-feed
 
