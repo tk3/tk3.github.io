@@ -3,8 +3,9 @@
 title: tk3++
 description: >-
   tk3's memo
-twitter_username: tk3inc
-github_username: tk3
+
+#twitter_username: tk3inc
+#github_username: tk3
 
 theme: minima
 permalink: /posts/:year/:month/:day/:title/
