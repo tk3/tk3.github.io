@@ -1,5 +1,6 @@
 # Welcome to Jekyll!
 
+lang: ja_JP
 title: tk3++
 description: >-
   tk3's memo
@@ -8,7 +9,7 @@ description: >-
 #github_username: tk3
 
 theme: minima
-permalink: /posts/:year/:month/:day/:title/
+permalink: /posts/:year/:month/:day/:hour:minute:second
 plugins:
   - jekyll-feed
 
