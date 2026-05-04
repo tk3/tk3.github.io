@@ -5,7 +5,17 @@ post='_posts'
 today=`date +'%F'`
 title=$1
 
-if [ -z "$post" ] || [ -z "$today" ] || [ -z "$title" ]; then
+if [ -z "$post" ] || [ -z "$today" ]; then
+  echo "Error: System"
+  exit 1
+fi
+
+if [ -z "$EDITOR" ]; then
+  echo "Error: Not set EDITOR"
+  exit 1
+fi
+
+if [ -z "$title" ]; then
   echo "Error: Argument"
   exit 1
 fi
